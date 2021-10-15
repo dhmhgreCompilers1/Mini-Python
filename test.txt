@@ -1,0 +1,23 @@
+def multiply(x, y):
+	return x*y
+
+x = 1
+y = x + 1.1	#integer + float, also a comment
+#This is a comment
+o = 0
+"""This is also
+a comment"""
+
+if not (x and (o and y)):
+	z = multiply(x,y)
+	if z > 0:
+		while z < 11:
+			z = z + 1
+	else:
+		z = 3
+else:
+	z = 2
+
+'''And yet
+another
+comment'''
