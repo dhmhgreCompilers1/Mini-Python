@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Graphviz">
+      <UniqueIdentifier>{9e37177e-157f-4ec4-9b72-1f195dedf002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphviz">
+      <UniqueIdentifier>{f87d5063-6357-4e06-946a-363b13b96807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Symbol Table">
+      <UniqueIdentifier>{643d072e-c4df-479b-a8df-db1a38c10cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Symbol Table">
+      <UniqueIdentifier>{11ede321-5f7d-42de-8704-124ed9f64c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grammar Files">
+      <UniqueIdentifier>{c3a79e9d-938c-49ed-a180-565085d752e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Test Files">
+      <UniqueIdentifier>{602a3410-0d62-4f5f-b848-1526518de3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Result Files">
+      <UniqueIdentifier>{1108b638-0ff5-4342-a363-562aa2eac9c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Flex Include="grammar.l">
+      <Filter>Grammar Files</Filter>
+    </Flex>
+  </ItemGroup>
+  <ItemGroup>
+    <Bison Include="grammar.y">
+      <Filter>Grammar Files</Filter>
+    </Bison>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="grammar.flex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grammar.tab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STNode.cpp">
+      <Filter>Source Files\Graphviz</Filter>
+    </ClCompile>
+    <ClCompile Include="STNodeTypes.cpp">
+      <Filter>Source Files\Graphviz</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolTable.cpp">
+      <Filter>Source Files\Symbol Table</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolNodes.cpp">
+      <Filter>Source Files\Graphviz</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="grammar.tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="location.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="position.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STNode.h">
+      <Filter>Header Files\Graphviz</Filter>
+    </ClInclude>
+    <ClInclude Include="STNodeTypes.h">
+      <Filter>Header Files\Graphviz</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolTable.h">
+      <Filter>Header Files\Symbol Table</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolNodes.h">
+      <Filter>Header Files\Graphviz</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt">
+      <Filter>_Test Files</Filter>
+    </Text>
+    <Text Include="test1.txt">
+      <Filter>_Test Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stree.dot">
+      <Filter>_Result Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="stree.dot.gif">
+      <Filter>_Result Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

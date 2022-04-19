@@ -1,0 +1,69 @@
+﻿Build started 04/19/2022 3:03:46 PM.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\Mini-Python.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Mini-Python.tlog\unsuccessfulbuild".
+       BisonTarget:
+       Skipping target "BisonTarget" because all output files are up-to-date with respect to the input files.
+       FlexTarget:
+         Process "grammar.l" flex file
+         cmd.exe /D /C "C:\Users\giann\AppData\Local\Temp\tmpf86c2db83f184f1086cbef011cff72d4.cmd"
+         
+         start /B /WAIT /D "C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\" win_flex.exe --outfile="grammar.flex.cpp" --wincompat  "grammar.l"
+         exit /b %errorlevel%
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt grammar.flex.cpp
+         grammar.flex.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(49,1): warning C4005: 'INT8_MIN': macro redefinition
+       C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\grammar.flex.cpp(59): message : see previous definition of 'INT8_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(50,1): warning C4005: 'INT16_MIN': macro redefinition
+       C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\grammar.flex.cpp(62): message : see previous definition of 'INT16_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(51,1): warning C4005: 'INT32_MIN': macro redefinition
+       C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\grammar.flex.cpp(65): message : see previous definition of 'INT32_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(53,1): warning C4005: 'INT8_MAX': macro redefinition
+       C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\grammar.flex.cpp(68): message : see previous definition of 'INT8_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(54,1): warning C4005: 'INT16_MAX': macro redefinition
+       C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\grammar.flex.cpp(71): message : see previous definition of 'INT16_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(55,1): warning C4005: 'INT32_MAX': macro redefinition
+       C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\grammar.flex.cpp(74): message : see previous definition of 'INT32_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(57,1): warning C4005: 'UINT8_MAX': macro redefinition
+       C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\grammar.flex.cpp(77): message : see previous definition of 'UINT8_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(58,1): warning C4005: 'UINT16_MAX': macro redefinition
+       C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\grammar.flex.cpp(80): message : see previous definition of 'UINT16_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(59,1): warning C4005: 'UINT32_MAX': macro redefinition
+       C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\grammar.flex.cpp(83): message : see previous definition of 'UINT32_MAX'
+     1>C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\STNode.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\STNode.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Debug\Mini-Python.exe" /INCREMENTAL /ILK:"Debug\Mini-Python.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Debug\Mini-Python.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Debug\Mini-Python.lib" /MACHINE:X86 Debug\grammar.flex.obj
+         Debug\grammar.tab.obj
+         Debug\main.obj
+         Debug\STNode.obj
+         Debug\STNodeTypes.obj
+         Debug\SymbolNodes.obj
+         Debug\SymbolTable.obj
+         Mini-Python.vcxproj -> C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Debug\Mini-Python.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Mini-Python.tlog\unsuccessfulbuild".
+         Touching "Debug\Mini-Python.tlog\Mini-Python.lastbuildstate".
+     1>Done Building Project "C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\Mini-Python.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\Mini-Python.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(49,1): warning C4005: 'INT8_MIN': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(50,1): warning C4005: 'INT16_MIN': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(51,1): warning C4005: 'INT32_MIN': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(53,1): warning C4005: 'INT8_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(54,1): warning C4005: 'INT16_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(55,1): warning C4005: 'INT32_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(57,1): warning C4005: 'UINT8_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(58,1): warning C4005: 'UINT16_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(59,1): warning C4005: 'UINT32_MAX': macro redefinition
+         C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\STNode.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         C:\Users\giann\OneDrive\5th Semester\Compilers I\Mini-Python\Mini-Python\STNode.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+
+    11 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
